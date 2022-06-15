@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  discordserverzapper:
+    image: discordserverzapper
+    build:
+      context: .
+      dockerfile: ./Dockerfile
